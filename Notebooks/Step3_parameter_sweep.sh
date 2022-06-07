@@ -11,9 +11,9 @@ for m in ${maxres[@]}
 		for a in ${alg[@]}
 			do
 				echo $m $p $a
-				filename="XGboost_combined_similarity_matrix_1720_0.95.txt"
+				filename="combined_similarity_matrix_1720_0.95.tsv"
 				python hidef/hidef_finder.py --g $filename --maxres $m  \
-				--k $p --alg $a --o "hidef_xgboost/${m}_${p}_${a}"
+				--k $p --alg $a --o "hidef/${m}_${p}_${a}"
 			done
 		done
 	done
