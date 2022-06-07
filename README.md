@@ -1,7 +1,7 @@
 # SynSigOntologies
 The work done on building ontologies for synapse during my GSR at Ideker Lab (2022). 
 # Step 1: 
-Read and combine features for 1720 Synsig genes.
+Read and combine features for Synsig gene pairs.
 
 # Step 2:
 Read SynGO_CC ontology (Reference).
