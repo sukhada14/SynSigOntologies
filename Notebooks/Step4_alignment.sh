@@ -14,7 +14,3 @@ for d in ../../SynSig Ontology/Hidef_Output/* ; do
     
     #./calculateFDRs ${alignment_file} "Ref_ont" 0.01 criss_cross $test_folder 100 30 gene &
 done
-
-#mkdir -p /home/mlzboy/b2c2/shared/db;
-
-#./calculateFDRs computed_ont.txt ref_ont.txt 0.01 criss_cross test_alignment_results 100 30 gene &
